@@ -1,0 +1,198 @@
+span {
+  font-size: 62px;
+}
+
+.card {
+  margin: 10px;
+  overflow: visible;
+  /* background-color:rgb(233, 228, 184); */
+  border-color: #87afeb;
+  border-width: 2px;
+  border-bottom-color: #2196f3;
+  border-bottom-width: medium;
+}
+.moreInfo {
+  color: gray;
+  position: bottom;
+  
+
+}
+#wait {
+  display: none;
+}
+/* .chkToggle{
+position: relative;
+top: 20px;
+right: 10px;
+} */
+
+.card-header {
+  /* display: inline-flex; 
+    /* width: 100%;  */
+    /* background-color: red;
+    margin: center;
+    position: absolute; */
+   
+   
+}
+
+
+div.card-header {
+background-color: rgb(255, 255, 255);
+
+
+}
+.delete-coin {
+  float: right;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  float:right;
+  margin-right: -25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px darkgoldenrod;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  /* float: right; */
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.modal-item {
+  font-size: 20px;
+}
+.input-wrapper {
+  width: 100%;
+}
+
+/* #chartContainer {
+  width: 100%;
+  height: 500px;
+} */
+
+
+/* 
+==================================== */
+
+
+.parallax {
+  /* The image used */
+
+  background-image: url("../images/prlx3.jpg");
+  /* background-color: red; */
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 25px;
+}
+
+
+.myTabs {
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  margin: 3px;
+  border-style: solid;
+  -webkit-text-stroke-width: 1px;
+
+
+}
+
+/* 
+================================== */
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 5s linear infinite; /* Safari */
+  animation: spin 5s linear infinite;
+  position: center;
+  margin-left: 30%;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 
+============================== */
+
